@@ -1,0 +1,123 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">详情</view>
+</header>
+
+<view class="top">
+	<view class="tit">IOS四个隐藏技巧，知道2个更轻松</view>
+	<view class="statis gray">
+		<view>2020年06月12日发布</view>
+		<view>
+			<text class="icon-view"></text>
+			<text class="statis-view">10.0k</text>
+		</view>
+	</view>
+</view>
+
+<view class="con">
+	<view>文章内容</view>
+	
+	<view class="labels">
+		<view class="labels-item gray radius">当季</view>
+		<view class="labels-item gray radius">技巧</view>
+	</view>
+
+	<view class="dos" bindtap="hotAction">
+		<text class="dos-icon anim-shake icon-hots red"></text>
+		<view class="dos-tip">
+			<text class="orange din">100</text>
+			<text class="gray">人点赞</text>
+		</view>
+	</view>
+</view>
+
+<view class="tip gray">本内容来自作者，不代表平台立场</view>
+
+<view class="hot">
+	<view class="hot-tit">这些很不错哦</view>
+
+	<view class="good">
+		<image src="../../static/inb.jpg" class="good-img" mode="aspectFill"></image>
+		<view class="good-info">
+			<view>
+				<view class="good-tit">夏季女士长裙</view>
+				<view class="good-sale gray">122 人付款</view>
+			</view>
+			<view class="good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="good-mon">24.00</text>
+				</view>
+				<view class="good-go round">立即前往</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="good">
+		<image src="../../static/inb.jpg" class="good-img" mode="aspectFill"></image>
+		<view class="good-info">
+			<view>
+				<view class="good-tit">夏季女士长裙</view>
+				<view class="good-sale gray">122 人付款</view>
+			</view>
+			<view class="good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="good-mon">24.00</text>
+				</view>
+				<view class="good-go round">立即前往</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="hot">
+
+	<view class="hot-tit">大家都在看</view>
+
+	<view class="art radius">
+		<view class="art-con">
+			<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+			<view class="art-info">
+				<view class="art-user">
+					<image src="../../static/inb.jpg" class="round"></image>
+					<text class="gray">好物鉴赏</text>
+				</view>
+				<view class="gray art-min">
+					100 阅读
+				</view>
+			</view>
+		</view>
+		<image src="../../static/inb.jpg" class="art-img" mode="aspectFill"></image>
+	</view>
+
+	<view class="art radius">
+		<view class="art-con">
+			<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+			<view class="art-info">
+				<view class="art-user">
+					<image src="../../static/inb.jpg" class="round"></image>
+					<text class="gray">好物鉴赏</text>
+				</view>
+				<view class="gray art-min">
+					100 阅读
+				</view>
+			</view>
+		</view>
+		<image src="../../static/inb.jpg" class="art-img" mode="aspectFill"></image>
+	</view>
+
+</view>
+
+<view class="footer shadow-top">
+	<view class="footer-dos">
+		<view class="footer-item">
+			<text class="icon-poster"></text>
+			<view>海报</view>
+		</view>
+		<view class="footer-item">
+			<text class="icon-favos"></text>
+			<view>收藏</view>
+		</view>
+	</view>
+	<view class="footer-get" bindtap="showGoods">立即拥有</view>
+</view>

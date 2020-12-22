@@ -1,0 +1,108 @@
+<wxs src="../../module/common.wxs" module="common"></wxs>
+
+<view class="head" style="height: {{CustomBar}}px; padding-top: {{StatusBar}}px; opacity: {{alpha}}">
+	<view>Hi~，木子菇凉</view>
+</view>
+
+<view class="back" bindtap="goBack" style="height: {{CustomBar}}px; padding-top: {{StatusBar+1}}px;">
+	<text class="icon-back"></text>
+</view>
+
+<swiper class="screen-swiper swipe">
+	<swiper-item wx:for="{{common.split(info.thumburl)}}" wx:key="this">
+		<image src="{{item}}" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<view class="box">
+	<view class="tit">
+		<view class="price">
+			<text class="price-symbol">¥</text>
+			<text class="price-money">{{info.price}}</text>
+		</view>
+		<view class="tit-favo">
+			<text class="icon-favo favo favod"></text>
+			<view class="favo-num gray">100</view>
+		</view>
+	</view>
+	<view class="good-name">{{info.productname}}</view>
+	<view class="good-tip gray">{{info.des}}</view>
+</view>
+
+<view class="box">
+	<view class="good-attr">
+		<view>
+			<text class="good-attr-name gray">运费</text>
+			<text>满99元免邮费</text>
+		</view>
+
+		<text class="icon-arrow gray"></text>
+	</view>
+
+	<view class="good-attr">
+		<view class="good-attr-info">
+			<text class="good-attr-name gray">领券</text>
+			<view>
+				<text class="good-tick">每满150减18</text>
+			</view>
+		</view>
+
+		<text class="icon-arrow gray"></text>
+	</view>
+
+	<view class="box-alpha gray">
+		<view class="good-equel" wx:for="{{info.servsinfo}}" wx:key="this">
+			<text class="good-equel-dot">●</text>
+			<text>{{item.servnm}}</text>
+		</view>
+	</view>
+</view>
+
+<view class="box good-params">
+	<view class="good-params-all">
+		<view></view>
+		<text>规格参数</text>
+	</view>
+	<view class="good-params-item">
+		<text class="gray">分类</text>
+		<view>连衣裙</view>
+	</view>
+	<view class="good-params-item">
+		<text class="gray">分类</text>
+		<view>连衣裙</view>
+	</view>
+	<view class="good-params-item">
+		<text class="gray">分类</text>
+		<view>连衣裙</view>
+	</view>
+	<view class="good-params-item">
+		<text class="gray">分类</text>
+		<view>连衣裙</view>
+	</view>
+</view>
+
+<view class="box good-info">
+	<view class="good-params-all good-params-two">
+		<view></view>
+		<text>商品信息</text>
+	</view>
+
+	<view class="good-con">
+		<rich-text nodes="{{info.descript}}"></rich-text>
+	</view>
+</view>
+
+<view class="footer">
+    <view class="footer-dos">
+		<button class="footer-item" bindtap="home">
+			<image src="../../static/indexo.png" mode="aspectFit"></image>
+			<text>首页</text>
+		</button>
+		<button class="footer-item" open-type="contact">
+			<image src="../../static/customer.png" mode="aspectFit"></image>
+			<text>客服</text>
+		</button>
+	</view>
+	<view class="footer-cart round" bindtap="cart">加入购物车</view>
+	<view class="footer-buy round" bindtap="buy">立即购买</view>
+</view>

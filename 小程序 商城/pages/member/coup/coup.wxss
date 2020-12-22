@@ -1,0 +1,59 @@
+.coup {
+	position: relative;
+	height: 200rpx;
+	margin: 15rpx 20rpx;
+	display: flex;
+	overflow: hidden;
+}
+
+.coup-left {
+	flex-shrink: 0;
+	width: 200rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 1rpx dashed #ddd;
+}
+
+.coup-mtit {
+	font-size: 32rpx;
+	line-height: 72rpx;
+	margin: 17rpx 10rpx 0 0;
+}
+
+.coup-mnum {
+	font-size: 62rpx;
+	line-height: 76rpx;
+	font-weight: bold;
+	font-family: din;
+}
+
+.coup-right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20rpx 30rpx;
+}
+
+.coup-itit {
+	font-weight: bold;
+	margin-bottom: 15rpx;
+}
+
+.cir {
+	position: absolute;
+	left: 185rpx;
+	width: 30rpx;
+	height: 30rpx;
+	background-color: #f7f8f8;
+	border-radius: 50%;
+}
+
+.cir-top {
+	top: -15rpx;
+}
+
+.cir-bot {
+	bottom: -15rpx;
+}

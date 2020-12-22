@@ -1,0 +1,73 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">通知公告</view>
+</header>
+
+<view class="box radius">
+	<view class="box-tit">签到积分</view>
+	<view class="box-time gray">05月28日</view>
+	<view class="box-msg">今日签到成功</view>
+
+	<view class="box-li">
+		<text class="gray">瓜分积分：</text>
+		<text>100</text>
+	</view>
+	<view class="box-li">
+		<text class="gray">参与人数：</text>
+		<text>1000</text>
+	</view>
+	<view class="box-li">
+		<text class="gray">签到时间：</text>
+		<text>10:12</text>
+	</view>
+
+	<navigator url="../../article/article" hover-class="none" class="box-scan">
+		<text>查看详情</text>
+		<text class="icon-arrow gray"></text>
+	</navigator>
+</view>
+
+<view class="box radius">
+	<view class="box-img">
+		<image src="../../../static/agent.jpg" mode="aspectFill"></image>
+	</view>
+	<view class="box-name">吃得太多会长胖</view>
+	<view class="gray">吃得再多也不长胖的方法</view>
+	<navigator url="../../article/article" hover-class="none" class="box-scan">
+		<text>查看详情</text>
+		<text class="icon-arrow gray"></text>
+	</navigator>
+</view>
+
+<view class="box radius">
+	<view class="box-tit">支付成功通知</view>
+	<view class="box-time gray">05月28日</view>
+	<view class="box-msg jc">
+		<view class="gray">支付金额</view>
+		<view class="box-price">
+			<text>¥</text>
+			<text class="box-money">10.00</text>
+		</view>
+	</view>
+
+	<view class="box-li">
+		<text class="gray">交易商户：</text>
+		<text>轻知科技</text>
+	</view>
+	<view class="box-li">
+		<text class="gray">支付金额：</text>
+		<text class="red">¥10.00</text>
+	</view>
+	<view class="box-li">
+		<text class="gray">支付方式：</text>
+		<text>余额支付</text>
+	</view>
+	<view class="box-li">
+		<text class="gray">交易时间：</text>
+		<text>2020-05-28 12:12</text>
+	</view>
+
+	<navigator url="../../article/article" hover-class="none" class="box-scan">
+		<text>查看详情</text>
+		<text class="icon-arrow gray"></text>
+	</navigator>
+</view>

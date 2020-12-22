@@ -1,0 +1,133 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">确认订单</view>
+</header>
+
+<view class="address">
+	<view class="address-info">
+		<view class="address-top">
+			<view>小一</view>
+			<view>18288888888</view>
+		</view>
+		<view class="address-con gray">湖南省长沙市开福区德雅路口</view>
+	</view>
+	<text class="icon-arrow gray"></text>
+</view>
+
+<view class="good">
+	<image src="../../static/swaper/s0.jpg" class="good-img" mode="aspectFill"></image>
+	<view class="good-info">
+		<view>
+			<view class="good-name">冬季新款女士连衣裙</view>
+			<view class="good-attr gray">黑色、均码</view>
+		</view>
+		<view class="good-bot">
+			<view class="red">
+				<text>¥</text>
+				<text class="good-price">12.00</text>
+			</view>
+			<view>1</view>
+		</view>
+	</view>
+</view>
+
+<view class="good">
+	<image src="../../static/swaper/s0.jpg" class="good-img" mode="aspectFill"></image>
+	<view class="good-info">
+		<view>
+			<view class="good-name">冬季新款女士连衣裙</view>
+			<view class="good-attr gray">黑色、均码</view>
+		</view>
+		<view class="good-bot">
+			<view class="red">
+				<text>¥</text>
+				<text class="good-price">12.00</text>
+			</view>
+			<view>1</view>
+		</view>
+	</view>
+</view>
+
+<input type="text" value="" class="good-remark" placeholder="备注信息(20字以内)" maxlength="20"></input>
+
+<view class="info">
+	<view class="info-attr">
+		<view class="info-attr-info">
+			<text class="info-attr-name gray">优惠券</text>
+			<view>
+				<text class="info-tick">每满150减18</text>
+			</view>
+		</view>
+
+		<text class="icon-arrow gray"></text>
+	</view>
+</view>
+
+<view class="info">
+	<view class="info-li gray">
+		<view>商品总价</view>
+		<view>
+			<text class="info-symbol">¥</text>
+			<text class="info-price"> 24.00</text>
+		</view>
+	</view>
+	<view class="info-li gray">
+		<view>运费</view>
+		<view>
+			<text class="info-symbol">¥</text>
+			<text class="info-price"> 0.00</text>
+		</view>
+	</view>
+	<view class="info-li gray">
+		<view>优惠金额</view>
+		<view>
+			<text class="info-symbol">¥</text>
+			<text class="info-price"> 1.00</text>
+		</view>
+	</view>
+	<view class="info-li gray">
+		<view>获得积分</view>
+		<view>
+			<text class="info-symbol">+</text>
+			<text class="info-price"> 0</text>
+		</view>
+	</view>
+	<view class="info-li">
+		<view></view>
+		<view class="info-total">
+			<view>共计1件商品 合计：</view>
+			<view>
+				<text class="info-symbol">¥</text>
+				<text class="info-price red"> 0.00</text>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="info">
+	<view class="pay-tit">支付方式</view>
+	<radio-group bindchange="payChange">
+		<label class="pay-type">
+			<view>
+				<text class="icon-wxpay pay-wx"></text>
+				<text>微信支付</text>
+			</view>
+			<radio value="1" checked="true"></radio>
+		</label>
+		<label class="pay-type boter">
+			<view>
+				<text class="icon-yepay pay-ye"></text>
+				<text>余额支付</text>
+			</view>
+			<radio value="2"></radio>
+		</label>
+	</radio-group>
+</view>
+
+<view class="footer">
+    <view class="footer-info">
+		<text>实付：</text>
+		<text class="info-symbol red">¥</text>
+		<text class="info-price red bold"> 24.00</text>
+	</view>
+	<view class="footer-buy round" bindtap="buy">确认下单</view>
+</view>

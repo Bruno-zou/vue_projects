@@ -1,0 +1,114 @@
+.tab {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	height: 43px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30rpx;
+	background-color: #fff;
+	border-top: 1rpx solid #f5f6f7;
+	z-index: 999;
+}
+
+.tab-item {
+	height: 43px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	color: #aaa;
+}
+
+.tab-item view {
+	width: 30rpx;
+	height: 3rpx;
+	background-color: #fff;
+}
+
+.tab-item.act {
+	color: #373737;
+}
+
+.tab-item.act view {
+	background-color: #ff586d;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	padding: 20rpx;
+	margin: 0 20rpx 20rpx;
+	background-color: #fff;
+}
+
+.box.first {
+	margin-top: 55px;
+}
+
+.box-top {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30rpx;
+}
+
+.box-good {
+	flex: 1;
+	display: flex;
+	margin-bottom: 20rpx;
+}
+
+.box-good-img {
+	width: 160rpx;
+	height: 160rpx;
+	margin-right: 20rpx;
+}
+
+.box-good-info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box-good-attr {
+	margin-top: 15rpx;
+	font-size: var(--mini);
+}
+
+.box-good-bot {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-good-price {
+	font-size: var(--big);
+	font-family: din;
+}
+
+.box-total {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 15rpx 0;
+}
+
+.box-dos {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20rpx 0 10rpx;
+}
+
+.box-dos view,
+.box-dos navigator {
+	margin-left: 20rpx;
+	width: 220rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	text-align: center;
+	border: 1rpx solid #eee;
+}

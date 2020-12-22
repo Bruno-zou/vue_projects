@@ -1,0 +1,11 @@
+<view class="head" style="height:{{CustomBar}}px">
+    <view class="bar {{bgColor}}" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;{{bgImage?'background-image:url('+ bgImage +');background-size: cover;background-position: center':''}}">
+        <view class="bar-back" bindtap="goBack" wx:if="{{isBack}}">
+            <text class="icon-back"></text>
+            <slot name="backText"></slot>
+        </view>
+        <view class="bar-title" style="top:{{StatusBar}}px">
+            <slot name="title"></slot>
+        </view>
+    </view>
+</view>

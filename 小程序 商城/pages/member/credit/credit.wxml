@@ -1,0 +1,50 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">积分抢兑</view>
+</header>
+
+<view class="tips">
+	<view class="tips-box">
+		<view class="tips-con">
+			<view>可用积分</view>
+			<view class="tips-cre">171</view>
+			<view class="tips-tip gray">小积分 换好礼 会员专享 定期更新</view>
+		</view>
+	</view>
+</view>
+
+<view class="list">
+	
+	<navigator url="../good/good" class="list-box radius">
+		<view class="list-box-img">
+			<image src="../../../static/inb.jpg" mode="aspectFill"></image>
+		</view>
+		<view class="list-name list-pd">柠檬小龙虾沙拉</view>
+		<view class="list-pd red">
+			<text class="list-price">88</text>
+			<text>积分</text>
+		</view>
+	</navigator>
+
+	<navigator url="../good/good" class="list-box radius">
+		<view class="list-box-img">
+			<image src="../../../static/inb.jpg" mode="aspectFill"></image>
+		</view>
+		<view class="list-name list-pd">柠檬小龙虾沙拉</view>
+		<view class="list-pd red">
+			<text class="list-price">88</text>
+			<text>积分</text>
+		</view>
+	</navigator>
+
+	<navigator url="../good/good" class="list-box radius">
+		<view class="list-box-img">
+			<image src="../../../static/inb.jpg" mode="aspectFill"></image>
+		</view>
+		<view class="list-name list-pd">柠檬小龙虾沙拉</view>
+		<view class="list-pd red">
+			<text class="list-price">88</text>
+			<text>积分</text>
+		</view>
+	</navigator>
+
+</view>

@@ -1,0 +1,45 @@
+<view class="top" style="height:{{CustomBar}}px;">
+	<view class="head shadow" style="height:{{CustomBar}}px;padding-top: {{StatusBar}}px">
+
+		<view class="search round gray">
+			<view class="search-box">
+				<text class="icon-search search-icon"></text>
+				<text class="search-recom">码农优选</text>
+			</view>
+			<view>
+				<text class="icon-scan search-icon"></text>
+			</view>
+		</view>
+
+	</view>
+</view>
+
+<view class="box" style="top: {{CustomBar}}px">
+	<scroll-view class="nav" scroll-y>
+		<view class="nav-item gray act" bindtap="switchTab">精选推荐</view>
+		<view class="nav-item gray" bindtap="switchTab">居家生活</view>
+	</scroll-view>
+
+	<scroll-view class="con" scroll-y>
+		<navigator class="con-adv radius" hover-class="none">
+			<image src="../../static/inb.jpg" mode="aspectFill"></image>
+		</navigator>
+
+		<view class="con-box">
+			<view class="con-tit">当季</view>
+			<navigator url="../list/list?cid={{child.id}}&tit={{child.categoryname}}" hover-class="none" class="con-item">
+				<image src="../../static/class/c0.png" mode="aspectFill"></image>
+				<view>女装</view>
+			</navigator>
+			<navigator url="../list/list?cid={{child.id}}&tit={{child.categoryname}}" hover-class="none" class="con-item">
+				<image src="../../static/class/c1.png" mode="aspectFill"></image>
+				<view>羽绒</view>
+			</navigator>
+			<navigator url="../list/list?cid={{child.id}}&tit={{child.categoryname}}" hover-class="none" class="con-item">
+				<image src="../../static/class/c2.png" mode="aspectFill"></image>
+				<view>内衣</view>
+			</navigator>
+		</view>
+
+	</scroll-view>
+</view>

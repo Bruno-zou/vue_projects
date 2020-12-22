@@ -1,0 +1,72 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">限时秒杀</view>
+</header>
+
+<view class="kill radius">
+    <view class="kill-img radius">
+        <image src="../../static/class/c7.png" mode="aspectFill"></image>
+    </view>
+    <view class="kill-info">
+        <view class="kill-tit">柠檬小龙虾沙拉</view>
+        <view class="kill-bot">
+            <view class="kill-pri red">
+                <text>¥</text>
+                <text class="kill-mon">12.00</text>
+                <text class="kill-mark">¥24.00</text>
+            </view>
+            <navigator url="../good/good" hover-class="none" class="kill-sub radius shadow">
+                <view>去抢购</view>
+                <view class="kill-progress">
+                    <progress stroke-width="3" percent="20" border-radius="10rpx" backgroundColor="#ff9690" activeColor="#fff"></progress>
+                    <text>20%</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<view class="kill radius">
+    <view class="kill-img radius">
+        <image src="../../static/class/c6.png" mode="aspectFill"></image>
+    </view>
+    <view class="kill-info">
+        <view class="kill-tit">柠檬小龙虾沙拉</view>
+        <view class="kill-bot">
+            <view class="kill-pri red">
+                <text>¥</text>
+                <text class="kill-mon">12.00</text>
+                <text class="kill-mark">¥24.00</text>
+            </view>
+            <navigator url="../good/good" hover-class="none" class="kill-sub radius shadow">
+                <view>去抢购</view>
+                <view class="kill-progress">
+                    <progress stroke-width="3" percent="20" border-radius="10rpx" backgroundColor="#ff9690" activeColor="#fff"></progress>
+                    <text>20%</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<view class="kill radius">
+    <view class="kill-img radius">
+        <image src="../../static/class/c5.png" mode="aspectFill"></image>
+    </view>
+    <view class="kill-info">
+        <view class="kill-tit">柠檬小龙虾沙拉</view>
+        <view class="kill-bot">
+            <view class="kill-pri red">
+                <text>¥</text>
+                <text class="kill-mon">12.00</text>
+                <text class="kill-mark">¥24.00</text>
+            </view>
+            <navigator url="../good/good" hover-class="none" class="kill-sub radius shadow">
+                <view>去抢购</view>
+                <view class="kill-progress">
+                    <progress stroke-width="3" percent="20" border-radius="10rpx" backgroundColor="#ff9690" activeColor="#fff"></progress>
+                    <text>20%</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

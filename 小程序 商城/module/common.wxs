@@ -1,0 +1,10 @@
+var split = function(str) {
+    if(!str) {
+        return
+    }
+    return str.split(',')
+}
+
+module.exports = {
+	split: split
+}

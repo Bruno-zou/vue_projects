@@ -1,0 +1,39 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">{{tit}}</view>
+</header>
+
+<scroll-view class="scroll" scroll-x>
+	<view class="scroll-item act">
+		<image src="../../static/class/c1.png" mode="aspectFill"></image>
+		<view>T恤</view>
+	</view>
+	<view class="scroll-item">
+		<image src="../../static/class/c3.png" mode="aspectFill"></image>
+		<view>短袖</view>
+	</view>
+</scroll-view>
+
+<view class="tab {{scroll >=85 ? 'fix' : ''}}" style="{{scroll >=85 ? 'top:'+CustomBar+'px' : ''}}">
+	<view class="tab-item act">综合</view>
+	<view class="tab-item">销量</view>
+	<view class="tab-item">价格</view>
+</view>
+
+<view class="hot">
+
+	<navigator url="../good/good?did={{item.id}}" wx:for="{{list}}" wx:key="this" class="hot-box radius">
+		<view class="hot-box-img">
+			<image src="{{item.thumbsquare}}" mode="aspectFill"></image>
+		</view>
+		<view class="kill-good-name hot-pd">{{item.productname}}</view>
+		<view class="kill-good-soal hot-pd gray">{{item.buycount}} 人付款</view>
+		<view class="kill-good-price hot-pd">
+			<view class="kill-good-now">
+				<text class="kill-good-symbol">¥</text>
+				<text class="kill-good-money">{{item.price}}</text>
+			</view>
+			<text class="kill-good-old gray">¥{{item.yprice}}</text>
+		</view>
+	</navigator>
+
+</view>

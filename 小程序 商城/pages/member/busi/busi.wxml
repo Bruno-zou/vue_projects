@@ -1,0 +1,19 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">商务合作</view>
+</header>
+
+<view>
+	商务合作文章详情
+</view>
+
+<view class="foot">
+	<button class="foot-btn line">
+		<text class="icon-level"></text>
+		<view class="gray">进度咨询</view>
+	</button>
+	<button class="foot-btn">
+		<text class="icon-level"></text>
+		<view class="gray">专属客户(09:00-18:00)</view>
+	</button>
+</view>
+

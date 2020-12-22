@@ -1,0 +1,129 @@
+@keyframes icon-spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+
+.iconfont-spin {
+	-webkit-animation: icon-spin 2s infinite linear;
+	animation: icon-spin 2s infinite linear;
+	display: inline-block;
+}
+
+.iconfont-pulse {
+	-webkit-animation: icon-spin 1s infinite steps(8);
+	animation: icon-spin 1s infinite steps(8);
+	display: inline-block;
+}
+
+text[class*="icon-"],
+view[class*="icon-"],
+button[class*="icon-"] {
+	font-family: "iweIcon";
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'iweIcon';
+  src: url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.eot');
+  src: url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1818100_1raqroxzhsr.svg#iconfont') format('svg');
+}
+
+.icon-back:before {
+    content: "\e602";
+    font-size: var(--biger);
+}
+
+.icon-search:before {
+    content: "\e60c";
+}
+
+.icon-scan:before {
+    content: "\e7dc";
+}
+
+.icon-arrow:before {
+    content: "\e7b9";
+}
+
+.icon-countdown:before {
+    content: "\e60b";
+}
+
+.icon-view:before {
+    content: "\e61c";
+}
+
+.icon-money:before {
+    content: "\e665";
+}
+
+.icon-level:before {
+    content: "\e6b4";
+}
+
+.icon-favo:before {
+    content: "\e60d";
+}
+
+.icon-favos:before {
+    content: "\e622";
+}
+
+.icon-hot:before {
+    content: "\e600";
+}
+
+.icon-hots:before {
+    content: "\e60f";
+}
+
+.icon-poster:before {
+    content: "\e623";
+}
+
+.icon-del:before {
+    content: "\e62c";
+}
+
+.icon-more:before {
+    content: "\e609";
+}
+
+.icon-che:before {
+    content: "\e614";
+}
+
+.icon-cheo:before {
+    content: "\e613";
+}
+
+.icon-pic::before {
+    content: "\e627";
+}
+
+.icon-txt::before {
+    content: "\e61d";
+}
+
+.icon-close::before {
+    content: "\e60e";
+}
+
+.icon-star::before {
+    content: "\e7a7";
+}
+
+.icon-kf::before {
+    content: "\e607";
+}

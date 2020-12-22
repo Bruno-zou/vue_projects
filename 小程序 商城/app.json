@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/class",
+    "pages/recom/recom",
+    "pages/cart/cart",
+    "pages/mem/mem",
+
+    "pages/good/good",
+
+    "pages/list/list",
+    "pages/kill/kill",
+
+    "pages/order/order",
+
+    "pages/member/morder/morder",
+    "pages/member/morderinfo/morderinfo",
+
+    "pages/member/money/money",
+    "pages/member/coup/coup",
+    "pages/member/favo/favo",
+    "pages/member/credit/credit",
+
+    "pages/member/agent/agent",
+    "pages/member/busi/busi",
+    "pages/member/notice/notice",
+    "pages/member/message/message",
+    "pages/member/integral/integral",
+
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "码农优选",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 600000,
+    "downloadFile": 600000
+  },
+  "tabBar": {
+    "color": "#c6c7c8",
+    "selectedColor": "#ff586d",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/index.png",
+        "selectedIconPath": "./static/indexo.png"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "text": "分类",
+        "iconPath": "./static/class.png",
+        "selectedIconPath": "./static/classo.png"
+      },
+      {
+        "pagePath": "pages/recom/recom",
+        "text": "值得买",
+        "iconPath": "./static/recom.png",
+        "selectedIconPath": "./static/recomo.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./static/cart.png",
+        "selectedIconPath": "./static/carto.png"
+      },
+      {
+        "pagePath": "pages/mem/mem",
+        "text": "我的",
+        "iconPath": "./static/mem.png",
+        "selectedIconPath": "./static/memo.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "header": "/components/header/header"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

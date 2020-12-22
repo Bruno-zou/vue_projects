@@ -1,0 +1,104 @@
+<view class="head shadow" style="height: {{CustomBar}}px;padding-top: {{StatusBar}}px">
+	<view>购物车</view>
+</view>
+
+<scroll-view class="scroll" style="top: {{CustomBar}}px" scroll-y>
+	
+	<view class="good radius">
+		<radio></radio>
+		<view class="good-img radius">
+			<image src="../../static/product/8.png"></image>
+		</view>
+		<view class="good-info">
+			<view class="good-top">
+				<view class="good-name">水果刀</view>
+				<view class="gray">
+					<text>10 斤 大颗</text>
+					<text class="icon-arrow"></text>
+				</view>
+			</view>
+			<view class="good-bot">
+				<view class="good-price">
+					¥<text>100.00</text>
+				</view>
+				<view class="good-dos">
+					<view class="good-plus gray">-</view>
+					<view class="good-nums">1</view>
+					<view class="good-plus gray">+</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="good radius">
+		<radio></radio>
+		<view class="good-img radius">
+			<image src="../../static/product/5.png"></image>
+		</view>
+		<view class="good-info">
+			<view class="good-top">
+				<view class="good-name">水果刀</view>
+				<view class="gray">
+					<text>10 斤 大颗</text>
+					<text class="icon-arrow"></text>
+				</view>
+			</view>
+			<view class="good-bot">
+				<view class="good-price">
+					¥<text>100.00</text>
+				</view>
+				<view class="good-dos">
+					<view class="good-plus gray">-</view>
+					<view class="good-nums">1</view>
+					<view class="good-plus gray">+</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="tit">
+		<view class="tit-name">
+			<text>为</text>
+			<text class="tit-line gray">/</text>
+			<text>您</text>
+			<text class="tit-line gray">/</text>
+			<text>推</text>
+			<text class="tit-line gray">/</text>
+			<text>荐</text>
+		</view>
+		<view class="tit-tip gray">RECOMMENDED FRO YOU</view>
+	</view>
+
+	<view class="hot">
+
+		<view class="hot-box radius" wx:for="{{recom}}" wx:key="this">
+			<view class="hot-box-img">
+				<image src="../../static/product/{{index+1}}.png" mode="aspectFill"></image>
+			</view>
+			<view class="kill-good-name hot-pd">{{item.title}}</view>
+			<view class="kill-good-soal hot-pd gray">{{item.buyNum}} 人付款</view>
+			<view class="kill-good-price hot-pd">
+				<view class="kill-good-now">
+					<text class="kill-good-symbol">¥</text>
+					<text class="kill-good-money">{{item.price}}</text>
+				</view>
+				<text class="kill-good-old gray">¥{{item.market}}</text>
+			</view>
+		</view>
+
+	</view>
+
+</scroll-view>
+
+<view class="footer">
+	<view class="go-check">
+		<radio></radio>
+		<text class="gray">全选</text>
+	</view>
+	<view class="go-info">
+		<view class="gray">
+			合计：¥ <text class="go-price">129.00</text>
+		</view>
+		<view class="go-buy round">去结算</view>
+	</view>
+</view>

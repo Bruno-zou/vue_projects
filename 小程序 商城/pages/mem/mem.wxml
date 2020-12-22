@@ -1,0 +1,139 @@
+<view class="head shadow" style="height: {{CustomBar}}px; padding-top: {{StatusBar}}px; opacity: {{alpha}}">
+	<view>Hi~，木子菇凉</view>
+</view>
+
+<view class="user" style="padding-top: {{CustomBar+10}}px;background: url('https://www.bing.com/th?id=OHR.SunSalutation_ZH-CN7833986255_1920x1080.jpg')">
+	<view class="user-box">
+		<view class="user-avatar round">
+			<open-data type="userAvatarUrl"></open-data>
+		</view>
+		<view class="user-info">
+			<view class="user-name">Hi~，木子菇凉</view>
+			<view class="user-level round">
+				<view class="user-level-dot round">
+					<text class="icon-level"></text>
+				</view>
+				<view class="user-level-name">普通会员</view>
+			</view>
+		</view>
+	</view>
+	<view class="user-sign round">每日签到</view>
+</view>
+
+<view class="con" style="">
+
+	<view class="box radius">
+		<navigator url="../member/morder/morder" hover-class="none" class="box-all">
+			<view>全部订单</view>
+			<text class="icon-arrow gray min"></text>
+		</navigator>
+		<view class="box-list">
+			<navigator url="../member/morder/morder" hover-class="none" class="box-item">
+				<image src="../../static/ic_mea.png" mode="aspectFill"></image>
+				<view class="gray">待付款</view>
+			</navigator>
+			<navigator url="../member/morder/morder" hover-class="none" class="box-item">
+				<image src="../../static/ic_meb.png" mode="aspectFill"></image>
+				<view class="gray">待发货</view>
+			</navigator>
+			<navigator url="../member/morder/morder" hover-class="none" class="box-item">
+				<image src="../../static/ic_mec.png" mode="aspectFill"></image>
+				<view class="gray">待收货</view>
+			</navigator>
+			<navigator url="../member/morder/morder" hover-class="none" class="box-item">
+				<image src="../../static/ic_med.png" mode="aspectFill"></image>
+				<view class="gray">已完成</view>
+			</navigator>
+			<navigator url="../member/morder/morder" hover-class="none" class="box-item">
+				<image src="../../static/ic_mee.png" mode="aspectFill"></image>
+				<view class="gray">售后</view>
+			</navigator>
+		</view>
+	</view>
+
+	<view class="money gray radius shadow-all">
+		<navigator url="../member/coup/coup" hover-class="none" class="money-item">
+			<text class="money-nums">4</text>
+			<view>卡券</view>
+		</navigator>
+		<navigator url="../member/credit/credit" hover-class="none" class="money-item">
+			<text class="money-nums">0</text>
+			<view>积分</view>
+		</navigator>
+		<navigator url="../member/money/money" hover-class="none" class="money-item">
+			<text class="money-nums">0.00</text>
+			<view>余额</view>
+		</navigator>
+		<view class="money-line">
+			<image src="../../static/mar.png"></image>
+		</view>
+		<navigator url="../member/money/money" hover-class="none" class="money-item">
+			<view class="icon-money money-nums"></view>
+			<text>我的资产</text>
+		</navigator>
+	</view>
+
+	<swiper class="screen-swiper adver shadow-all">
+		<swiper-item>
+			<image src="../../static/swaper/s0.jpg" class="radius" mode="aspectFill"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="../../static/swaper/s1.jpg" class="radius" mode="aspectFill"></image>
+		</swiper-item>
+	</swiper>
+
+	<view class="grid radius shadow-all">
+		<view class="box-list">
+			<navigator class="box-item box-warp">
+				<image src="../../static/reco.png" mode="aspectFill"></image>
+				<view class="gray">值得买</view>
+			</navigator>
+			<navigator url="../member/favo/favo" hover-class="none" class="box-item box-warp">
+				<image src="../../static/favo.png" mode="aspectFill"></image>
+				<view class="gray">我的收藏</view>
+			</navigator>
+			<navigator url="../member/busi/busi" hover-class="none" class="box-item box-warp">
+				<image src="../../static/cooper.png" mode="aspectFill"></image>
+				<view class="gray">商务合作</view>
+			</navigator>
+			<navigator url="../member/notice/notice" hover-class="none" class="box-item box-warp">
+				<image src="../../static/mess.png" mode="aspectFill"></image>
+				<view class="gray">消息</view>
+			</navigator>
+		</view>
+	</view>
+
+	<view class="tit">
+		<view class="tit-name">
+			<text>为</text>
+			<text class="tit-line gray">/</text>
+			<text>您</text>
+			<text class="tit-line gray">/</text>
+			<text>推</text>
+			<text class="tit-line gray">/</text>
+			<text>荐</text>
+		</view>
+		<view class="tit-tip gray">RECOMMENDED FRO YOU</view>
+	</view>
+
+	<view class="hot">
+
+		<view class="hot-box radius" wx:for="{{recom}}" wx:key="this">
+			<view class="hot-box-img">
+				<image src="../../static/product/{{index+1}}.png" mode="aspectFill"></image>
+			</view>
+			<view class="kill-good-name hot-pd">{{item.title}}</view>
+			<view class="kill-good-soal hot-pd gray">{{item.buyNum}} 人付款</view>
+			<view class="kill-good-price hot-pd">
+				<view class="kill-good-now">
+					<text class="kill-good-symbol">¥</text>
+					<text class="kill-good-money">{{item.price}}</text>
+				</view>
+				<text class="kill-good-old gray">¥{{item.market}}</text>
+			</view>
+		</view>
+
+	</view>
+
+</view>
+

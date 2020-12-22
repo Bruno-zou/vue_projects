@@ -1,0 +1,120 @@
+.scroll {
+	position: relative;
+	height: 85px;
+	white-space: nowrap;
+	margin: 1rpx 0;
+	background-color: #fff;
+}
+
+.scroll-item {
+	width: 90rpx;
+	display: inline-block;
+	text-align: center;
+	margin: 17rpx 15rpx 0;
+}
+
+.scroll-item image {
+	width: 48px;
+	height: 48px;
+	border-radius: 12rpx;
+	border: 5rpx solid #f6f7f8;
+}
+
+.scroll-item.act {
+	color: #ff586d;
+}
+
+.scroll-item.act image {
+	border: 5rpx solid #ff586d;
+}
+
+.tab {
+	display: flex;
+	padding: 0 30rpx;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+.tab.fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 200;
+}
+
+.tab-item {
+	display: flex;
+	padding: 30rpx 0;
+}
+
+.tab-item.act {
+	color: #ff586d;
+}
+
+.hot {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20rpx;
+}
+
+.hot-box {
+	width: 48.5%;
+	padding-bottom: 20rpx;
+	margin-bottom: 20rpx;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, .98);
+}
+
+.hot-box-img {
+	height: 350rpx;
+	overflow: hidden;
+}
+
+.hot-box-img image {
+	max-height: 100%;
+}
+
+.hot-pd {
+	padding: 0 20rpx;
+}
+
+.kill-good-name {
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 10rpx;
+}
+
+.kill-good-soal {
+	font-size: var(--minier);
+}
+
+.kill-good-price {
+	display: flex;
+	margin-top: 13rpx;
+}
+
+.kill-good-now {
+	color: #f78c2d;
+}
+
+.kill-good-symbol {
+	font-weight: bold;
+	font-size: var(--minier);
+}
+
+.kill-good-money {
+	font-size: var(--biger);
+	font-family: 'din';
+	font-weight: bold;
+}
+
+.kill-good-old {
+	margin: 13rpx 0 0 5rpx;
+	font-family: 'din';
+	font-size: var(--mini);
+	text-decoration: line-through;
+}

@@ -1,0 +1,83 @@
+page {
+	background-color: #fff;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 100rpx 0 20rpx;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.head-back {
+	width: 80rpx;
+}
+
+.head-tit {
+	flex: 1;
+	text-align: center;
+}
+
+.money {
+	display: flex;
+	background: linear-gradient(to bottom, rgba(255, 88, 109, 1), rgba(255, 255, 255, 1))
+}
+
+.box {
+	width: 94%;
+	padding: 100rpx 30rpx 50rpx;
+	margin: 30rpx auto 20rpx 3%;
+	border-radius: 8rpx;
+	background-color: #fff;
+}
+
+.box-tit {
+	text-align: center;
+}
+
+.box-total {
+	text-align: center;
+	font-size: 48rpx;
+	font-family: din;
+	font-weight: bold;
+	margin: 30rpx 20rpx;
+}
+
+.box-other {
+	display: flex;
+	justify-content: space-around;
+	margin: 120rpx auto 100rpx;
+}
+
+.box-half {
+	text-align: center;
+}
+
+.box-mon {
+	font-size: 36rpx;
+	font-family: din;
+	margin-top: 15rpx;
+}
+
+.box-dos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-dos view {
+	width: 45%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	background-color: #fef5ee;
+	border-radius: 6rpx;
+}
+
+.box-dos view.act {
+	color: #fff;
+	background-color: #ed6666;
+}

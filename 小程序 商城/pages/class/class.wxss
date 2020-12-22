@@ -1,0 +1,117 @@
+.top {
+	position: relative;
+	z-index: 99999;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	padding: 0 200rpx 0 20rpx;
+	z-index: 99999;
+	background-color: #fff;
+}
+
+.search {
+	flex: 1;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, .03);
+	padding: 0 20rpx 0 10rpx;
+	margin-right: 20rpx;
+}
+
+.search-box {
+	flex: 1;
+}
+
+.search-icon {
+	font-size: var(--big);
+}
+
+.search-recom {
+	margin-left: 10rpx;
+}
+
+.box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+}
+
+.nav {
+	flex-shrink: 0;
+	width: 200rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-item {
+	flex: 1;
+	height: 92rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-item.act {
+	color: #373737;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.con {
+	flex: 1;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.con-adv {
+	height: 160rpx;
+	margin: 20rpx 20rpx 10rpx;
+	overflow: hidden;
+}
+
+.con-adv image {
+	width: 100%;
+	height: 160rpx;
+}
+
+.con-box {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20rpx 20rpx 0;
+	box-shadow: 1rpx 2rpx 3rpx rgba(100, 100, 100, 0.07);
+}
+
+.con-tit {
+	width: 100%;
+	font-weight: bold;
+	padding: 15rpx 30rpx 10rpx 10rpx;
+	background-color: #fcfcfc;
+}
+
+.con-item {
+	width: 31%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10rpx 0;
+}
+
+.con-item image {
+	width: 100rpx;
+	height: 100rpx;
+	margin-bottom: 5rpx;
+}

@@ -1,0 +1,51 @@
+.favo {
+	width: 100%;
+	flex: 1;
+	display: flex;
+	margin-top: 1rpx;
+	padding: 20rpx 30rpx;
+	background-color: #fff;
+}
+
+.favo-img {
+	flex-shrink: 0;
+	width: 160rpx;
+	height: 160rpx;
+	margin-right: 20rpx;
+	overflow: hidden;
+}
+
+.favo-img image {
+	max-height: 100%;
+}
+
+.favo-txt {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.favo-tit {
+	flex: 1;
+	font-size: var(--big);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.favo-price {
+	font-family: din;
+	font-size: var(--big);
+	font-weight: bold;
+}
+
+.favo-bot {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.favo-del {
+	font-size: var(--big);
+}

@@ -1,0 +1,25 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">消息</view>
+</header>
+
+<navigator url="../message/message" hover-class="none" class="box">
+	<image src="../../../static/icon_news.png" class="box-img" mode="aspectFill"></image>
+	<view class="box-info">
+		<view class="box-tit">
+			<view>通知公告</view>
+			<view class="box-mini gray">昨天</view>
+		</view>
+		<view class="gray">平台系统消息、公告</view>
+	</view>
+</navigator>
+
+<navigator url="../message/message" hover-class="none" class="box">
+	<image src="../../../static/icon_pay.png" class="box-img" mode="aspectFill"></image>
+	<view class="box-info">
+		<view class="box-tit">
+			<view>账户通知</view>
+			<view class="box-mini gray">昨天</view>
+		</view>
+		<view class="gray">账户信息通知、订单消息</view>
+	</view>
+</navigator>

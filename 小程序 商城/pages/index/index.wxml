@@ -1,0 +1,118 @@
+<view class="head shadow" style="padding-top: {{StatusBar}}px">
+
+	<view class="tit" style="height: {{CustomBar-StatusBar}}px">码农优选</view>
+
+	<view class="head-box">
+		<view class="search round gray">
+			<view class="search-box">
+				<text class="icon-search search-icon"></text>
+				<text class="search-recom">码农优选</text>
+			</view>
+			<view>
+				<text class="icon-scan search-icon"></text>
+			</view>
+		</view>
+
+		<view class="gift">
+			<image src="../../static/gift.png" mode="widthFix"></image>
+		</view>
+	</view>
+
+</view>
+
+<swiper class="screen-swiper swiper" style="margin-top: {{CustomBar + 70}}px">
+	<swiper-item>
+		<image src="../../static/swaper/s0.jpg" class="radius" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/swaper/s1.jpg" class="radius" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<view class="tab">
+	<navigator url="" hover-class="none" class="tab-item" wx:for="{{classList}}" wx:key="this">
+		<image src="{{item.imgurl}}" class="tab-img round"></image>
+		<view class="tab-txt">{{item.categoryname}}</view>
+	</navigator>
+</view>
+
+<swiper class="screen-swiper adver">
+	<swiper-item>
+		<image src="../../static/swaper/s0.jpg" class="radius" mode="aspectFill"></image>
+	</swiper-item>
+	<swiper-item>
+		<image src="../../static/swaper/s1.jpg" class="radius" mode="aspectFill"></image>
+	</swiper-item>
+</swiper>
+
+<view class="kill radius">
+	<view class="kill-tit">
+		<view>
+			<text class="icon-countdown red"></text>
+			<text class="kill-tit-name">限时秒杀</text>
+		</view>
+		<navigator url="../kill/kill" hover-class="none" class="kill-more gray">
+			<text>进去狂逛</text>
+			<text class="icon-arrow"></text>
+		</navigator>
+	</view>
+
+	<view class="kill-list">
+
+		<view class="kill-good" wx:for="{{kill}}" wx:key="this">
+			<image src="../../static/product/{{index+1}}.png" class="kill-good-img radius" mode="widthFix"></image>
+			<view class="kill-good-name">{{item.title}}</view>
+			<view class="kill-good-soal gray">已售{{item.buyNum}} 仅剩12份</view>
+			<view class="kill-good-price">
+				<view class="kill-good-now">
+					<text class="kill-good-symbol">¥</text>
+					<text class="kill-good-money">{{item.price}}</text>
+				</view>
+				<text class="kill-good-old gray">¥{{item.market}}</text>
+			</view>
+		</view>
+
+	</view>
+</view>
+
+<scroll-view class="scroll" scroll-with-animation scroll-x>
+	<view class="scroll-item scroll-act">
+		<text>猜您喜欢</text>
+		<view class="line radius"></view>
+	</view>
+	<view class="scroll-item">
+		<text>特惠</text>
+		<view class="line radius"></view>
+	</view>
+	<view class="scroll-item">
+		<text>运动</text>
+		<view class="line radius"></view>
+	</view>
+	<view class="scroll-item">
+		<text>洗护</text>
+		<view class="line radius"></view>
+	</view>
+	<view class="scroll-item">
+		<text>母婴</text>
+		<view class="line radius"></view>
+	</view>
+</scroll-view>
+
+<view class="hot">
+	
+	<navigator url="../good/good" wx:for="{{goods}}" wx:key="this" class="hot-box radius">
+		<view class="hot-box-img">
+			<image src="../../static/product/{{index+1}}.png" mode="aspectFill"></image>
+		</view>
+		<view class="kill-good-name hot-pd">{{item.title}}</view>
+		<view class="kill-good-soal hot-pd gray">{{item.buyNum}} 人付款</view>
+		<view class="kill-good-price hot-pd">
+			<view class="kill-good-now">
+				<text class="kill-good-symbol">¥</text>
+				<text class="kill-good-money">{{item.price}}</text>
+			</view>
+			<text class="kill-good-old gray">¥{{item.market}}</text>
+		</view>
+	</navigator>
+
+</view>

@@ -1,0 +1,35 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">我的收藏</view>
+</header>
+
+<view class="favo">
+	<navigator class="favo-img radius">
+		<image src="../../../static/swaper/s1.jpg" mode="aspectFill"></image>
+	</navigator>
+	<view class="favo-txt">
+		<view class="favo-tit">冬季新款女士连衣裙</view>
+		<view class="favo-bot">
+			<view class="red">
+				<text>¥</text>
+				<text class="favo-price">10.00</text>
+			</view>
+			<view class="icon-del favo-del gray"></view>
+		</view>
+	</view>
+</view>
+
+<view class="favo">
+	<navigator class="favo-img radius">
+		<image src="../../../static/swaper/s1.jpg" mode="aspectFill"></image>
+	</navigator>
+	<view class="favo-txt">
+		<view class="favo-tit">冬季新款女士连衣裙</view>
+		<view class="favo-bot">
+			<view class="red">
+				<text>¥</text>
+				<text class="favo-price">10.00</text>
+			</view>
+			<view class="icon-del favo-del gray"></view>
+		</view>
+	</view>
+</view>

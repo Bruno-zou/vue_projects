@@ -1,0 +1,130 @@
+<view class="head shadow" style="height: {{CustomBar}}px; padding-top: {{StatusBar}}px; opacity: {{alpha}}">
+	<view>值得买</view>
+</view>
+
+<view class="box" style="background-image: url('https://6977-iwecore-i093o-1301882973.tcb.qcloud.la/rec.jpg');padding-top: {{CustomBar}}px">
+
+	<view class="hot radius">
+		<navigator class="hot-item" hover-class="none">
+			<image src="../../static/class/c4.png" class="hot-item-img" mode="widthFix"></image>
+			<view class="hot-item-tit">9.9超值</view>
+			<view class="hot-item-tip gray">定价直降</view>
+		</navigator>
+		<navigator class="hot-item" hover-class="none">
+			<image src="../../static/class/c4.png" class="hot-item-img" mode="widthFix"></image>
+			<view class="hot-item-tit">9.9超值</view>
+			<view class="hot-item-tip gray">定价直降</view>
+		</navigator>
+		<navigator class="hot-item" hover-class="none">
+			<image src="../../static/class/c4.png" class="hot-item-img" mode="widthFix"></image>
+			<view class="hot-item-tit">9.9超值</view>
+			<view class="hot-item-tip gray">定价直降</view>
+		</navigator>
+		<navigator class="hot-item" hover-class="none">
+			<image src="../../static/class/c4.png" class="hot-item-img" mode="widthFix"></image>
+			<view class="hot-item-tit">9.9超值</view>
+			<view class="hot-item-tip gray">定价直降</view>
+		</navigator>
+	</view>
+
+	<navigator url="../article/article" class="art art-col radius">
+		<view class="art-all">
+			<image src="../../static/swaper/s1.jpg" mode="aspectFill"></image>
+		</view>
+		<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+		<view class="art-info">
+			<view class="art-user">
+				<image src="../../static/inb.jpg" class="round"></image>
+				<text class="gray">好物鉴赏</text>
+			</view>
+			<view class="gray art-min">
+				100 阅读
+			</view>
+		</view>
+	</navigator>
+
+	<navigator url="../article/article" class="art art-col radius">
+		<view class="art-three">
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+		</view>
+		<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+		<view class="art-info">
+			<view class="art-user">
+				<image src="../../static/inb.jpg" class="round"></image>
+				<text class="gray">好物鉴赏</text>
+			</view>
+			<view class="gray art-min">
+				100 阅读
+			</view>
+		</view>
+	</navigator>
+
+	<view class="art radius">
+		<view class="art-con">
+			<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+			<view class="art-info">
+				<view class="art-user">
+					<image src="../../static/inb.jpg" class="round"></image>
+					<text class="gray">好物鉴赏</text>
+				</view>
+				<view class="gray art-min">
+					100 阅读
+				</view>
+			</view>
+		</view>
+		<image src="../../static/inb.jpg" class="art-img" mode="aspectFill"></image>
+	</view>
+
+	<view class="art art-col radius">
+		<view class="art-all">
+			<image src="../../static/swaper/s1.jpg" mode="aspectFill"></image>
+		</view>
+		<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+		<view class="art-info">
+			<view class="art-user">
+				<image src="../../static/inb.jpg" class="round"></image>
+				<text class="gray">好物鉴赏</text>
+			</view>
+			<view class="gray art-min">
+				100 阅读
+			</view>
+		</view>
+	</view>
+
+	<view class="art art-col radius">
+		<view class="art-three">
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+			<image src="../../static/inb.jpg" mode="widthFix"></image>
+		</view>
+		<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+		<view class="art-info">
+			<view class="art-user">
+				<image src="../../static/inb.jpg" class="round"></image>
+				<text class="gray">好物鉴赏</text>
+			</view>
+			<view class="gray art-min">
+				100 阅读
+			</view>
+		</view>
+	</view>
+
+	<view class="art radius">
+		<view class="art-con">
+			<view class="art-tit">秋季新款水饮冲调爆品热卖</view>
+			<view class="art-info">
+				<view class="art-user">
+					<image src="../../static/inb.jpg" class="round"></image>
+					<text class="gray">好物鉴赏</text>
+				</view>
+				<view class="gray art-min">
+					100 阅读
+				</view>
+			</view>
+		</view>
+		<image src="../../static/inb.jpg" class="art-img" mode="aspectFill"></image>
+	</view>
+
+</view>

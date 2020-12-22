@@ -1,0 +1,44 @@
+page {
+	background-color: #f2ecde;
+}
+
+.rela {
+	position: relative;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 100rpx 0 20rpx;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.head-back {
+	width: 80rpx;
+}
+
+.head-tit {
+	flex: 1;
+	text-align: center;
+}
+
+.poster {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30rpx;
+}
+
+.box {
+	display: flex;
+	margin: 30rpx 20rpx;
+	padding: 30rpx;
+	background-color: #3c373e;
+}
+
+.white {
+	background-color: #fff;
+}

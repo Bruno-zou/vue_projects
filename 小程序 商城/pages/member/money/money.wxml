@@ -1,0 +1,29 @@
+<view class="head" style="height: {{CustomBar}}px;padding-top: {{StatusBar}}px;background-color: rgba(255, 255, 255, {{alpha}});">
+	<view class="head-back" bindtap="goBack">
+		<text class="icon-back"></text>
+	</view>
+	<view class="head-tit">我的钱包</view>
+</view>
+
+<view class="money">
+	<view class="box shadow" style="margin-top: {{CustomBar+20}}px">
+		<view class="box-tit">总金额(元)</view>
+		<view class="box-total bold">100.00</view>
+		
+		<view class="box-other">
+			<view class="box-half">
+				<text class="gray">可用金额(元)</text>
+				<view class="box-mon">40.00</view>
+			</view>
+			<view class="box-half">
+				<text class="gray">消费金额(元)</text>
+				<view class="box-mon">20.00</view>
+			</view>
+		</view>
+		
+		<view class="box-dos">
+			<view class="red">提现</view>
+			<view class="act">充值</view>
+		</view>
+	</view>
+</view>

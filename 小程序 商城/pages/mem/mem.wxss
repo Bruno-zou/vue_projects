@@ -1,0 +1,287 @@
+.head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 30rpx;
+	background-color: rgba(255, 255, 255, .97);
+	z-index: 99999;
+}
+
+.user {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60rpx 20rpx 50rpx;
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: linear-gradient(to bottom, rgba(255, 134, 124, 1), rgba(255, 134, 124, 1) 50%, rgba(255, 108, 130, 1))
+}
+
+.user-box {
+	display: flex;
+	align-items: center;
+}
+
+.user-avatar {
+	width: 120rpx;
+	height: 120rpx;
+	overflow: hidden;
+	margin-right: 30rpx;
+}
+
+.user-info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	height: 120rpx;
+}
+
+.user-name {
+	color: #fafafa;
+	font-size: var(--biger);
+	margin-bottom: 15rpx;
+}
+
+.user-level {
+	display: flex;
+	width: 190rpx;
+	height: 42rpx;
+	align-items: center;
+	background-color: rgba(255, 237, 137, .8);
+}
+
+.user-level-dot {
+	width: 42rpx;
+	height: 42rpx;
+	line-height: 42rpx;
+	text-align: center;
+	margin-right: 20rpx;
+	background-color: rgba(255, 207, 37, .6);
+}
+
+.user-level-name {
+	font-size: var(--mini);
+	display: inline-block;
+	opacity: .8;
+	text-shadow: 1rpx 2rpx 3rpx rgba(10, 70, 120, .1);
+}
+
+.user-sign {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 46rpx;
+	color: #aaa;
+	padding: 0 20rpx;
+	background-color: rgba(239, 228, 208, .97);
+}
+
+.con {
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(#f8f9fb, #f5f6f7);
+	padding-top: 20rpx;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 20rpx 20rpx;
+	background-color: #fff;
+}
+
+.box-all {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30rpx 35rpx;
+	font-size: var(--big);
+	font-weight: bold;
+	border-bottom: 1rpx solid #f8f9fb;
+}
+
+.box-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30rpx 0;
+}
+
+.box-item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.box-warp {
+	flex: initial;
+	width: 25%;
+	margin: 20rpx 0;
+}
+
+.box-item image {
+	width: 56rpx;
+	height: 56rpx;
+	margin-bottom: 15rpx;
+}
+
+.box-warp image {
+	width: 68rpx;
+	height: 68rpx;
+}
+
+.money {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 10rpx 25rpx 0;
+	margin: 0 20rpx 20rpx;
+	background-color: #fff;
+}
+
+.money-item {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.money-nums {
+	height: 70rpx;
+	line-height: 70rpx;
+	color: #ff586d;
+	font-size: var(--bigers);
+	font-family: din;
+}
+
+.money-line {
+	position: relative;
+	flex-shrink: 0;
+	width: 1rpx;
+	background-color: #f2f2f2
+}
+
+.money-line image {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	max-width: 12rpx;
+	width: 12rpx;
+	height: 17rpx;
+	transform: translate(0, -50%);
+	z-index: 10;
+}
+
+.adver {
+	min-height: 180rpx;
+	height: 180rpx;
+	overflow: hidden;
+	margin: 0 20rpx 20rpx;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	margin: 0 20rpx 20rpx;
+}
+
+.tit {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 50rpx 0 30rpx;
+}
+
+.tit-name {
+	letter-spacing: 10rpx;
+	font-weight: bold;
+}
+
+.tit-line {
+	font-weight: lighter;
+	margin: 0 5rpx;
+}
+
+.tit-tip {
+	margin-top: 10rpx;
+	font-size: var(--minier);
+}
+
+
+.hot {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 20rpx;
+}
+
+.hot-box {
+	width: 48.5%;
+	padding-bottom: 20rpx;
+	margin-bottom: 20rpx;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, .98);
+}
+
+.hot-box-img {
+	height: 350rpx;
+	overflow: hidden;
+}
+
+.hot-box-img image {
+	max-height: 100%;
+}
+
+.hot-pd {
+	padding: 0 20rpx;
+}
+
+
+.kill-good-name {
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-top: 10rpx;
+}
+
+.kill-good-soal {
+	font-size: var(--minier);
+}
+
+.kill-good-price {
+	display: flex;
+	margin-top: 13rpx;
+}
+
+.kill-good-now {
+	color: #f78c2d;
+}
+
+.kill-good-symbol {
+	font-weight: bold;
+	font-size: var(--minier);
+}
+
+.kill-good-money {
+	font-size: var(--biger);
+	font-family: 'din';
+	font-weight: bold;
+}
+
+.kill-good-old {
+	margin: 13rpx 0 0 5rpx;
+	font-family: 'din';
+	font-size: var(--mini);
+	text-decoration: line-through;
+}

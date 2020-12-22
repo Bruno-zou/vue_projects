@@ -1,0 +1,126 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">订单</view>
+</header>
+
+<view class="tab" style="top: {{CustomBar}}px">
+	<view class="tab-item act">
+		<text>全部</text>
+		<view></view>
+	</view>
+	<view class="tab-item">
+		<text>待付款</text>
+		<view></view>
+	</view>
+	<view class="tab-item">
+		<text>待发货</text>
+		<view></view>
+	</view>
+	<view class="tab-item">
+		<text>待收货</text>
+		<view></view>
+	</view>
+	<view class="tab-item">
+		<text>已完成</text>
+		<view></view>
+	</view>
+</view>
+
+<view class="box radius first">
+	<view class="box-top">
+		<view>订单号：3232322323</view>
+		<text class="red">待付款</text>
+	</view>
+	<view class="box-good">
+		<image src="../../../static/swaper/s0.jpg" class="box-good-img" mode="aspectFill"></image>
+		<view class="box-good-info">
+			<view>
+				<view>夏季新款女士长裙</view>
+				<view class="box-good-attr gray">黑色、均码</view>
+			</view>
+			<view class="box-good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="box-good-price">12.00</text>
+				</view>
+				<view class="gray">1</view>
+			</view>
+		</view>
+	</view>
+	<view class="box-good">
+		<image src="../../../static/swaper/s0.jpg" class="box-good-img" mode="aspectFill"></image>
+		<view class="box-good-info">
+			<view>
+				<view>夏季新款女士长裙</view>
+				<view class="box-good-attr gray">黑色、均码</view>
+			</view>
+			<view class="box-good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="box-good-price">12.00</text>
+				</view>
+				<view class="gray">1</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="box-total">
+		<text class="gray">共 2 件商品 合计：</text>
+		<text class="gray">¥</text>
+		<text class="box-good-price red">12.00</text>
+	</view>
+
+	<view class="box-dos">
+		<view class="round gray">查看物流</view>
+		<navigator url="../morderinfo/morderinfo" hover-class="none" class="round red">订单详情</navigator>
+	</view>
+</view>
+
+<view class="box radius">
+	<view class="box-top">
+		<view>订单号：3232322323</view>
+		<text class="red">待付款</text>
+	</view>
+	<view class="box-good">
+		<image src="../../../static/swaper/s0.jpg" class="box-good-img" mode="aspectFill"></image>
+		<view class="box-good-info">
+			<view>
+				<view>夏季新款女士长裙</view>
+				<view class="box-good-attr gray">黑色、均码</view>
+			</view>
+			<view class="box-good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="box-good-price">12.00</text>
+				</view>
+				<view class="gray">1</view>
+			</view>
+		</view>
+	</view>
+	<view class="box-good">
+		<image src="../../../static/swaper/s0.jpg" class="box-good-img" mode="aspectFill"></image>
+		<view class="box-good-info">
+			<view>
+				<view>夏季新款女士长裙</view>
+				<view class="box-good-attr gray">黑色、均码</view>
+			</view>
+			<view class="box-good-bot">
+				<view class="red">
+					<text>¥</text>
+					<text class="box-good-price">12.00</text>
+				</view>
+				<view class="gray">1</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="box-total">
+		<text class="gray">共 2 件商品 合计：</text>
+		<text class="gray">¥</text>
+		<text class="box-good-price red">12.00</text>
+	</view>
+
+	<view class="box-dos">
+		<view class="round gray">查看物流</view>
+		<navigator url="../morderinfo/morderinfo" hover-class="none" class="round red">订单详情</navigator>
+	</view>
+</view>

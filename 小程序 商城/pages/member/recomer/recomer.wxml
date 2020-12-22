@@ -1,0 +1,53 @@
+<view class="rela" style="height: {{CustomBar}}px;">
+	<view class="head" style="height: {{CustomBar}}px;padding-top: {{StatusBar}}px;background-color: rgba(255, 255, 255, {{alpha}});">
+		<view class="head-back" bindtap="goBack">
+			<text class="icon-back"></text>
+		</view>
+		<view class="head-tit" style="opacity: {{alpha}}">值得买</view>
+	</view>
+</view>
+
+<view class="poster">
+	<image src="../../../static/agent.jpg" mode="aspectFill"></image>
+</view>
+
+<view class="box bg-column radius">
+	<view class="box-tit">总收入(元)</view>
+	<view class="box-total bold">100.00</view>
+	
+	<view class="box-other">
+		<view class="box-half">
+			<text class="gray">待入账(元)</text>
+			<view class="box-mon">40.00</view>
+		</view>
+		<view class="box-half">
+			<text class="gray">冻结(元)</text>
+			<view class="box-mon">20.00</view>
+		</view>
+		<view class="box-half">
+			<text class="gray">可用(元)</text>
+			<view class="box-mon">20.00</view>
+		</view>
+	</view>
+	
+</view>
+
+<view class="box radius">
+	<navigator url="" class="nav-item" hover-class="none">
+        <view class="nums">10</view>
+        <text class="gray">发布的</text>
+    </navigator>
+    <view class="nav-item">
+        <view class="nums">10</view>
+        <text class="gray">点击</text>
+    </view>
+    <view class="nav-item">
+        <view class="nums">10</view>
+        <text class="gray">分享</text>
+    </view>
+	<view class="nav-line"></view>
+    <navigator url="" class="nav-item" hover-class="none">
+        <view class="icon-money nums"></view>
+        <text class="gray">去发布</text>
+    </navigator>
+</view>

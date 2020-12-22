@@ -1,0 +1,35 @@
+<header bgColor="bg-white" isBack="{{true}}">
+	<view slot="title">卡券</view>
+</header>
+
+<view class="coup bg-white radius">
+	<view class="coup-left red">
+		<text class="coup-mtit">¥</text>
+		<text class="coup-mnum">20</text>
+	</view>
+	<view class="coup-right">
+		<view>
+			<view class="coup-itit big">全场100元通用券</view>
+			<view class="gray min">优惠券全场可用</view>
+		</view>
+		<view class="red min">有效期：2019.11.10 - 2020-01-01</view>
+	</view>
+	<view class="cir cir-top"></view>
+	<view class="cir cir-bot"></view>
+</view>
+
+<view class="coup bg-white radius">
+	<view class="coup-left red">
+		<text class="coup-mtit">¥</text>
+		<text class="coup-mnum">20</text>
+	</view>
+	<view class="coup-right">
+		<view>
+			<view class="coup-itit big">全场100元通用券</view>
+			<view class="gray min">优惠券全场可用</view>
+		</view>
+		<view class="red min">有效期：2019.11.10 - 2020-01-01</view>
+	</view>
+	<view class="cir cir-top"></view>
+	<view class="cir cir-bot"></view>
+</view>

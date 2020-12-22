@@ -1,0 +1,20 @@
+<view class="rela" style="height: {{CustomBar}}px;">
+	<view class="head" style="height: {{CustomBar}}px;padding-top: {{StatusBar}}px;background-color: rgba(255, 255, 255, {{alpha}});">
+		<view class="head-back" bindtap="goBack">
+			<text class="icon-back"></text>
+		</view>
+		<view class="head-tit" style="opacity: {{alpha}}">邀请有礼</view>
+	</view>
+</view>
+
+<view class="poster">
+	<image src="../../../static/agent.jpg" mode="aspectFill"></image>
+</view>
+
+<view class="box radius">
+
+</view>
+
+<view class="box white radius">
+	
+</view>
